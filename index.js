@@ -19,7 +19,7 @@ client.on("ready", () => {
 })
 
 client.on("message", async (message) => {
-    const prefix = process.env.prefix;
+    const prefix = process.env.PREFIX;
     if(!message.content.startsWith(prefix)) return
 
     const serverQueue = queue.get(message.guild.id);
