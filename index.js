@@ -1,5 +1,4 @@
 require('dotenv').config();
-var DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const { executionAsyncResource } = require('async_hooks');
 const Discord = require('discord.js');
 const ytdl = require('ytdl-core');
@@ -7,7 +6,7 @@ const ytdl = require('ytdl-core');
 const { YTSearcher } = require('ytsearcher');
 
 const searcher = new YTSearcher({
-    key: 'AIzaSyDBC6U2k3bUYvDrrgu6yxYtG3sInOQNiaY',
+    key: process.env.YOUTUBE_APIKEY,
     revealed: true
 });
 
