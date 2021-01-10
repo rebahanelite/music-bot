@@ -156,4 +156,4 @@ function Queue(serverQueue) {
 }
 })
 
-client.login('Nzk3NzE2OTQ3MDY3OTk0MTEz.X_qhzQ.4e8klQb9-7afubVTS0eV9-_mK98')
+client.login(process.env.Nzk3NzE2OTQ3MDY3OTk0MTEz.X_qhzQ.4e8klQb9-7afubVTS0eV9-_mK98)
