@@ -5,7 +5,7 @@ const ytdl = require('ytdl-core');
 const { YTSearcher } = require('ytsearcher');
 
 const searcher = new YTSearcher({
-    key: AIzaSyDBC6U2k3bUYvDrrgu6yxYtG3sInOQNiaY,
+    key: 'AIzaSyDBC6U2k3bUYvDrrgu6yxYtG3sInOQNiaY',
     revealed: true
 });
 
