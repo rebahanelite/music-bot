@@ -1,3 +1,5 @@
+require('dotenv').config();
+var DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const { executionAsyncResource } = require('async_hooks');
 const Discord = require('discord.js');
 const ytdl = require('ytdl-core');
